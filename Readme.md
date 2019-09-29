@@ -31,3 +31,19 @@ step 1：
 step 2：
 
 ![1562498318643](1562498318643.png)
+
+#### 5.查看当前git用户名和个人邮箱
+
+```bash
+git config user.name
+git config user.email
+```
+
+#### 6.修改当前git用户名和个人邮箱
+
+```bash
+git config --global user.name "XXX"
+git config --global user.email "XXX"
+git config --global user.password "XXX"
+```
+
